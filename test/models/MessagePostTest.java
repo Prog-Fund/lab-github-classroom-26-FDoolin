@@ -25,7 +25,7 @@ class MessagePostTest {
 
     @Test
     void setMessage() {
-        assertEquals("Hi there." ,messagePost1.getMessage());
+        assertEquals("Hi there you." ,messagePost1.getMessage());
         assertEquals("I'm on my way." ,messagePost2.getMessage());
 
         messagePost1.setMessage("Bye Bye");
